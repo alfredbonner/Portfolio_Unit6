@@ -2,17 +2,17 @@
       text-align: center;
       background: url("images/banner.jpg");
       background-size: cover;
-      color: white;
+      color: yellow;
     }
     .nav {
-      color: white;
+      color: blue;
     }
     h1 {
       font-size: 70px;
     }
     img {
       margin: 40px 0px 0px 0px;
-      border: 7px solid white;
+      border: 7px black;
       border-radius: 20px;
     }
     ul {
@@ -20,7 +20,7 @@
       background: rgba(0,0,0,0.5);
     }
     li {
-      display: inline;
+      display: inline-table;
       padding: 0px 10px 0px 10px;
     }
     div{
@@ -30,11 +30,11 @@
     }
     @media (max-width: 500px) {
       h1 {
-        font-size: 36px;
-        padding: 5px;
+        font-size: 40px;
+        padding: 6px;
       }
       li {
         padding: 5px;
-        display: block;
+        display: inline;
       }
     }
